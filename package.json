@@ -1,0 +1,18 @@
+{
+  "name": "markdown-table",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start"
+  },
+  "dependencies": {
+    "preact": "^8.2.7",
+    "preact-compat": "^3.18.0"
+  },
+  "devDependencies": {
+    "@neutrinojs/preact": "^8.1.1",
+    "neutrino": "^8.1.1"
+  }
+}
