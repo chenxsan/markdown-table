@@ -1,12 +1,11 @@
+const preact = require('@neutrinojs/preact');
+
 module.exports = {
   use: [
-    [
-      '@neutrinojs/preact',
-      {
-        html: {
-          title: 'markdown-table'
-        }
+    preact({
+      html: {
+        title: 'markdown-table'
       }
-    ]
+    })
   ]
 };

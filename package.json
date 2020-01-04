@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "neutrino build",
-    "start": "neutrino start"
+    "build": "webpack-dev-server --mode development --open",
+    "start": "webpack --mode development"
   },
   "dependencies": {
     "preact": "^10.1.1",
@@ -13,6 +13,9 @@
   },
   "devDependencies": {
     "@neutrinojs/preact": "^9.0.0",
-    "neutrino": "^9.0.0"
+    "neutrino": "^9.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
