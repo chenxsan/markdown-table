@@ -8,11 +8,11 @@
     "start": "neutrino start"
   },
   "dependencies": {
-    "preact": "^8.2.7",
-    "preact-compat": "^3.18.0"
+    "preact": "^10.1.1",
+    "preact-compat": "^3.19.0"
   },
   "devDependencies": {
-    "@neutrinojs/preact": "^8.1.1",
-    "neutrino": "^8.1.1"
+    "@neutrinojs/preact": "^9.0.0",
+    "neutrino": "^9.0.0"
   }
 }
