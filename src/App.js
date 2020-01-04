@@ -52,7 +52,6 @@ export default class App extends Component {
     }
     return (
       <div>
-				<h2>Markdown 表格生成工具</h2>
         <div class='preact-wrapper'>
           <label class='preact-label'>
             <span>行</span><input
