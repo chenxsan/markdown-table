@@ -1,5 +1,4 @@
-import { render } from 'preact';
-
+import { h, render } from 'preact';
 let mount;
 const root = document.getElementById('root');
 const load = async () => {
